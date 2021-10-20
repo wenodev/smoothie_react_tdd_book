@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+## 210914
+### Findings
+- JSX는 DOM을 다루기 때문에 정확한 오류를 잡아내기 어렵다.
+- @testing-library는 이런 문제를 해결하기 위한 DOM 테스팅 라이브러리 이다.
+- 리액트를 지원하는 @testing-library는 react-testing-library 이다.
+- 공식문서의 첫줄에 다음과 같이 적혀있다.
+- The @testing-library family of packages helps you test UI components in a user-centric way.
+- @testing-library 패키지는 UI 컴포넌트를 사용자 중심에서 테스트하는데에 도움을 준다. 
+- [testing blibrary docs](https://testing-library.com/docs/)
+- [react-testing-library github](https://github.com/testing-library/react-testing-library)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## 210910
+### Facts
+- JEST 맛보기
+- 코드 직접 작성
+### Findings
+- null은 undefined가 아니다.
+### Feelgins
+- jest를 처음 사용해봐서 재밌었다.
+- code coverage를 확인할 때 java의 jacoco도 해보고 싶다는 생각을 했다.
 
-In the project directory, you can run:
+## 211004
+### Finding
+- react-testing-libraray의 render 함수가 반환하는 값 중 container는 화면에 표시되는 부분을 담고 있는 오브젝트이다.
 
-### `yarn start`
+## 211015
+### Finding
+- 자바스크립트는 동적 프로그래밍 언어이기 때문에 런타임중 발생하는 오류를 확인하기 어렵다.
+- 리액트에서는 Flow 라는 정적 타입 분석기를 사용할 수 있다.
+- 타입스크립트는 Flow 보다 범용적으로 사용할 수 있다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 211020
+### Finding
+```
+npm intstall --save-dev typescript @types/node @types/react @types/react-dom @types/jest
+```
+- typescript : 타입스크립트 라이브러리
+- @types/node : 노드의 타입이 정의된 타입 정의 파일
+- @types/react : 리액트의 타입이 정의된 타입 정의 파일
+- @types/react-dom : react-dom의 타입이 정의된 타입 정의 파일
+- @types/jest : Jest의 타입이 정의된 타입 정의 파일
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
