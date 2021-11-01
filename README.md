@@ -43,3 +43,6 @@ npm intstall --save-dev typescript @types/node @types/react @types/react-dom @ty
 - @types/react-dom : react-dom의 타입이 정의된 타입 정의 파일
 - @types/jest : Jest의 타입이 정의된 타입 정의 파일
 
+## 211101
+### Finding
+- vw, vh는 viewport 기준으로 css를 설정한다. 브라우저의 높이가 900px일때 1vh는 9px이다.
