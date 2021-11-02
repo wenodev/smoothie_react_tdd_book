@@ -46,3 +46,9 @@ npm intstall --save-dev typescript @types/node @types/react @types/react-dom @ty
 ## 211101
 ### Finding
 - vw, vh는 viewport 기준으로 css를 설정한다. 브라우저의 높이가 900px일때 1vh는 9px이다.
+
+## 211102
+### Finding
+- @media : 스타일 시트의 일부를 하나 이상의 미디어 쿼리 결과에 따라 적용할 때 사용한다.
+- prefers-reduced-motion : 사용자가 시스템에서 사용하는 불필요한 움직임의 양을 최소화하도록 요청했는지 감지하는 데 사용됩니다.
+-   no-preference : 사용자가 시스템에 알려진 기본 설정이 없음을 나타냅니다.
