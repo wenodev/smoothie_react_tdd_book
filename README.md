@@ -52,3 +52,8 @@ npm intstall --save-dev typescript @types/node @types/react @types/react-dom @ty
 - @media : 스타일 시트의 일부를 하나 이상의 미디어 쿼리 결과에 따라 적용할 때 사용한다.
 - prefers-reduced-motion : 사용자가 시스템에서 사용하는 불필요한 움직임의 양을 최소화하도록 요청했는지 감지하는 데 사용됩니다.
 -   no-preference : 사용자가 시스템에 알려진 기본 설정이 없음을 나타냅니다.
+
+## 211109
+### Finding
+- @keyframes : 애니메이션 중간중간의 특정 지점들을 거칠 수 있는 키프레임들을 설정함으로써 CSS 애니메이션 과정의 중간 절차를 제어할 수 있게 한다.
+- from - to : from에서 to로 변경된다.
