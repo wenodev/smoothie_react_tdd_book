@@ -57,3 +57,7 @@ npm intstall --save-dev typescript @types/node @types/react @types/react-dom @ty
 ### Finding
 - @keyframes : 애니메이션 중간중간의 특정 지점들을 거칠 수 있는 키프레임들을 설정함으로써 CSS 애니메이션 과정의 중간 절차를 제어할 수 있게 한다.
 - from - to : from에서 to로 변경된다.
+
+## 211110
+### Finding
+- tsconfig.json 파일에서 "baseUrl" : "src" 를 추가하면 src로 부터 시작되는 절대경로를 사용할 수 있다.
